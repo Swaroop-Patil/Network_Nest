@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+root.render(         //renders our application in root div
   <React.StrictMode>
-    <App />
+    <App />              {/*embedding App component with root id frm html*/}
   </React.StrictMode>
 );
 
